@@ -261,7 +261,7 @@ header {
 }
 
 .section__subtitle--intro span::before {
-    content: '';
+    content: 'UI designer';
     animation: animate infinite 8s;
 }
 
