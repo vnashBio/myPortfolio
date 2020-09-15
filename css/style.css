@@ -301,7 +301,7 @@ body {
     position: relative;
     opacity: .8;
     height: 430px;
-    width: 530px;
+    width: 530px auto;
     z-index: 2;
 }
 
@@ -321,7 +321,7 @@ body {
 
 .project-img {
     height: 250px;
-    width: 525px;
+    width: 525px auto;
 }
 
 .project-img:hover {
