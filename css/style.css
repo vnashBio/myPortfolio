@@ -301,7 +301,7 @@ body {
     position: relative;
     opacity: .8;
     height: 430px;
-    width: 530px auto;
+    width: 100%;
     z-index: 2;
 }
 
