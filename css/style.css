@@ -324,10 +324,6 @@ body {
     width: 100%;
 }
 
-.project-img:hover {
-    transform: scale(1.10);
-    transition: 1s;
-}
 
 .projects-title,
 .location-title {
@@ -343,6 +339,7 @@ body {
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    width:100%;
 }
 
 .location {
