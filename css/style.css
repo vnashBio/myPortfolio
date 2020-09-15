@@ -325,6 +325,7 @@ body {
 }
 .project-img:hover{
     transform:scale(1.12);
+    transition:1s;
 }
 
 
