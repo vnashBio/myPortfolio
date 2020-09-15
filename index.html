@@ -4,132 +4,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tshilidzi's portfolio website</title>
-    <script src="https://use.fontawesome.com/1a2baeedab.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.css">
+
+    <title>Tshilidzi's Portfolio</title>
 
 </head>
 
 <body>
-    <header>
-        <div class="Logo">
-            <!-- My icon -->
-            <img src="" alt="">
-        </div>
+    <section class="home">
         <button class="nav-toggle" id="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
-                <li class="nav__item"><a href="footer" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#location" class="nav__link">My Location</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">Contact</a></li>
             </ul>
         </nav>
-    </header>
 
-    <!-- introduction -->
-    <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            <span class="Hi">Hi I am </span><strong><span class="name">Tshilidzi Rambuda</span></strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro"> A junior <span></span> </p>
-        <img src="" class="header__img"></img>
-    </section>
-
-    <!-- My services -->
-    <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I do</h2>
-
-        <div class="services">
-
-            <div class="service">
-                <h3>Web design and development</h3>
-                <p>I create over the top web designs and applications using
-                    popular web development technologies.
-                </p>
-            </div>
-            <!--end of service section-->
-
-            <div class="service">
-                <h3>Data Analysis</h3>
-                <p>I specialise in data collection using popular data scrapping
-                    applications and data analysis using data visualisation languages</p>
-            </div>
-            <!--end of service section-->
-
-            <div class="service">
-                <h3>Graphic design</h3>
-                <p>Designing brands and business content creation is part of my
-                    speciality
-                </p>
-            </div>
-            <!--end of service section-->
-
+        <div class="introduction">
+            <img class="profile-pic" src="img/IMG_20200502_103446_562.jpg" alt="">
+            <h4 class="title">Hi I am <strong></strong>Tshilidzi Rambuda</h4>
+            <span class="subtitle">A Junior</span>
         </div>
-        <!--end of services section-->
-
-        <a href="#work" class="btn">My Work</a>
     </section>
+    <section class="about  wow fadeInUp" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="about-text wow fadeInUp"><br><br><br>
+                        <h4>About me</h4>
+                        <p>Throughout my life experience and exposure I have grown a passion for web designs,
+                            web development and programming.
+                            I spend most of my time researching about new web development technologies,
+                            which is part of who I am as an individual, creative, passionate,
+                            hardworking and a go getter with a dream of creating the next Facebook :D,
+                        </p>
+                    </div>
+                </div>
 
-    <!-- About Me -->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Designer and web developer based in Johannesburg</p>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="experience wow fadeInUp">
+                        <h4><strong>Experiences and and work place exposure</strong></h4>
+                        <p>Through my schorlarship of 1 year in Data analysis and computer science,
+                            I have learned to be productive at whatever means necesary, being committed
+                            and dedicated to something you love and enjoy is a taste at life's greatest fullfillment
+                        </p>
+                    </div>
+                </div>
 
-        <div class="about-me__body">
-            <p>Throughout my life experience and exposure I have grown a passion for web designs,
-                web development and programming.
-                I spend most of my time researching about new web development technologies,
-                which is part of who I am as an individual, creative, passionate,
-                hardworking and a go getter with a dream of owning the next Facebook :D,
-            </p>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br><br><br>
+                    <div class="service">
+                        <h4>Web design and development</h4>
+                        <p>I create over the top web designs and applications using
+                            popular web development technologies.
+                        </p>
+                    </div>
+                </div>
+                <!--end of service section-->
 
-            <h2 class="expe"><strong>Experiences and and work place exposure</strong></h2>
-
-            <p>Through my schorlarship of 1 year in china for Data analysis and computer science,
-                I have learned to be productive at whatever means necesary, being committed
-                and dedicated to something you love and enjoy is a taste at life's greatest fullfillment. 
-                I required analytic skills including, proficient data analysis skills,
-                programming skills within the languages, python, css, JavaScript, reactjs, and work place
-                exposure. 
-            </p>
-        </div>
-
-        <img src="img/tshilz2.jpg" alt="" class="about-me__img">
-    </section>
-
-    <!-- My Work -->
-
-    <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My work</h2>
-        <p class="section__subtitle">A complete application,
-            click the image to view details
-        </p>
-
-        <div class="portfolio">
-
-            <!-- portfolio item 01 -->
-            <a href="portfolio-item.html" class="portfolio__item">
-                <img src="img/images(27).jpg" alt="Chat application" class="portfolio__img">
-            </a>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br><br><br>
+                    <div class="service">
+                        <h4>Data Analysis</h4>
+                        <p>I specialise in data collection using popular data scrapping
+                            applications and data analysis using data visualisation languages</p>
+                    </div>
+                </div>
+                <!--end of service section-->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br><br><br>
+                    <div class="service">
+                        <h4>Graphic design</h4>
+                        <p>Designing brands and business content creation is part of my
+                            speciality
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="rambuda's cv.pdf" class="btn btn-primary view-cv">View My CV</a>
         </div>
     </section>
 
-    <!-- footer -->
 
-    <footer>
-        <p class="contact">This is where i can be reached
-        </p>
-        <span class="contact">+27 62 994 5696</span></br>
-        <a href="mailto:rambudatshilidzi1@gmil.com" class="footer__link">rambudatshilidzi1@gmail.com</a>
+    <section class="skills" id="skills"><br><br><br>
+        <div class="my-skills">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 skill">
+                        <h4><strong>My Skills</strong></h4>
+                        <p> <strong>HTML</strong>
+                            <div class="html"></div>
+                        </p>
+                        <p> <strong>CSS</strong>
+                            <div class="css"></div>
+                        </p>
+                        <p> <strong>JavaScript</strong>
+                            <div class="javascript"></div>
+                        </p>
+                        <p><strong>Data Analysis</strong>
+                            <div class="data"></div>
+                        </p>
+                        <p><strong>English (writting and verbal)</strong>
+                            <div class="english"></div>
+                        </p>
+                        <p> <strong>Communications</strong>
+                            <div class="communications"></div>
+                        </p>
+                        <p><strong>PHP</strong>
+                            <div class="php"></div>
+                        </p>
+                        <p><strong>React.js</strong>
+                            <div class="react"></div>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 skill"><br><br><br>
+                        <img src="img/tshilidzi.jpg" class="skills-image" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects"><br><br><br>
+        <div class="container">
+            <h4 class="projects-title">Projects</h4><br><br>
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><br><br>
+                    <div class=”card”>
+                        <div class=”card-body”>
+                            <a href="https://vnashbio.github.io/player.github.io">
+                                <img class="project-img" src="img\mediaPlayerProject.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div><br><br>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><br><br>
+                    <div class=”card”>
+                        <div class=”card-body”>
+                            <a href="">
+                                <img class="project-img" src="img/kasiGrillWebsite.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location" id="location"><br><br><br>
+        <div class="container location-container">
+            <h4 class="location-title">My location</h4>
+            <iframe src="https://goo.gl/maps/XwLB1HXUzjcokxWq7" class="location-caps" width="500px" height="300px"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer class="contacts" id="contacts" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="contact-icons col-lg-12 col-md-12 col-sm-12 col-xs-12"><br><br><br>
+                    <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
+                        <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                        <li><a href="https://www.linkein.com/in/tshilidzi-rambuda-7796b6168" class="fa fa-linkedin"></a>
+                        </li>
+                        <li><a href="#" class="fa fa-google"></a></li>
+                    </ul>
+                    <div class="cell"><a href="" class="fa fa-phone"></a> Get in touch 0629945696</div>
+                    <div class="wow fadeInUp copyright-text"
+                        data-wow-delay="0.8s col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <p><br>Copyright &copy; 2020 <br>Tshilidzi Rambuda
+
+                            <br><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </footer>
+
+
+    <link rel=" stylesheet" href="bootstrap-4.0.0/dist/js/bootstrap.min.js">
 
     <script src="js/index.js"></script>
 </body>
