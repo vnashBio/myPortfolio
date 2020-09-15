@@ -321,7 +321,7 @@ body {
 
 .project-img {
     height: 250px;
-    width: 525px auto;
+    width: 100%;
 }
 
 .project-img:hover {
