@@ -353,21 +353,6 @@ body {
 
 
 
-.location-title {
-    font-size: 19px;
-}
-
-.location-caps {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    width:100%;
-}
-
-.location {
-    background: black;
-}
-
 .contacts {
     background-color: black;
     height: 400;
